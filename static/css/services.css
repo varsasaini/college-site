@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/services.webp");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+
+  }
+  .container{
+    width: 100%;
+    text-align: center;
+  }
+  .image{
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px 10px;
+  }
+  .image img{
+    box-shadow: 5px 5px #282a2d;
+    border-radius: 5%;
+  }
+  .btn{
+    margin: auto;
+    margin-top: 10px;    
+  }
+  button{
+    background-color:#008CBA;;
+    padding: 10px;
+    text-align: center;
+    color: white;
+ 
+    border: none;
+    outline: none;
+    
+  }
+  .footer{
+    background-color: rgb(55, 55, 55);
+    height: 40%;
+    width: 100%;
+    margin: auto;
+  }
+  .footer .row{
+    width: 90%;
+  }
+  .footer .column{
+    padding-top:3px;
+    padding-left: 10px;
+    float: left;
+    width: 30%;
+  }
+  .footer h4{
+    color: white;
+    text-decoration: underline;
+  }
+  .footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    display:flex;
+    margin-bottom: 20px;
+  }
+  .footer p{
+    color: white;
+    font-size: 12px;
+  }
+  
+ 
+  

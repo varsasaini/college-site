@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .footer{
+    background-color: rgb(55, 55, 55);
+    height: 40%;
+    width: 100%;
+    margin: auto;
+  }
+  .footer .row{
+    width: 90%;
+  }
+  .footer .column{
+    padding-top:3px;
+    padding-left: 10px;
+    float: left;
+    width: 30%;
+  }
+  .footer h4{
+    color: white;
+    text-decoration: underline;
+  }
+  .footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    display:flex;
+    margin-bottom: 20px;
+  }
+  .footer p{
+    color: white;
+    font-size: 12px;
+  }
+  
